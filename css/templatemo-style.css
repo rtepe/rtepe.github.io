@@ -56,6 +56,43 @@ p {
   color: #45489a;
 }
 
+.section-heading a {
+  margin-left: 10px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.section-heading a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+.section-heading .a1 {
+  background: #2196f3;
+}
+
+.section-heading .a2 {
+  background: #e91e63;
+}
+
+.section-heading .a3 {
+  background: #23c186;
+}
+
+.section-heading .a4 {
+  background: #1a7181;
+}
+
+.section-heading .a5 {
+  background: #c36d11;
+}
+
+
 #content-p {
   font-size: 30;
 }
