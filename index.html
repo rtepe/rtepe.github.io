@@ -23,7 +23,23 @@
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
+		
+	<style>
+    
+   		 .left {
+float:left;
+width: 30%;
+    		}
 
+		.right {
+		display: flex;
+        flex-direction: column;
+        align-items: center; /* Optional: center aligns items horizontally */
+        text-align: center;
+}
+    
+
+	</style>
 <body>
 
 
@@ -135,9 +151,12 @@
 
         <div class="page-content">
             <section id="featured" class="content-section">
+<div class="left">
                 <div class="section-heading">
                     <h1>About <em>Us</em></h1>
                 </div>
+
+
                 <div class="section-heading">
                     <p><em>Nihat Bartu </em>SERTTAŞ - <em>21702301</em><a href="https://docs.google.com/document/d/1i7UKwTOlnIrJIbt5GoPGBru5jAepX73N6QfTJoA2En4/edit" target=”_blank” class="a1">Logbook</a></p>
 				
@@ -154,14 +173,20 @@
                 <div class="section-heading">
                     <p><em>Mert Atakan </em>ONRAT -<em>21802520</em><a href="https://docs.google.com/document/d/1-XTbfuRiHZpvnCukGDF1ga73kV1QYGN0OA29YSIhi6o/edit" target=”_blank” class="a5">Logbook</a></p>
                 </div>
-                <br>
+</div>	
+<div class="right">
+	
+			  <img src="img/group-photo.jpg" alt="Group Photo" style="width:500px;height:auto;" />
+			  <p><em>Nihat Bartu, Mert Atakan, Remzi, Ekrem, Abdulkadir (From left)</em></p>
+</div>
+               
                 <div class="section-heading">
                     <h4><em>Supervisor Faculty Member</em></h4>
                 </div>
                 <div class="section-heading">
                     <p><em>Shervin Rahimzadeh </em>Arashloo</p>
                 </div>
-			<div class="section-heading">
+		    <div class="section-heading">
                     <h4><em>Github Link</em></h4>
                 </div>
 
@@ -174,7 +199,7 @@
             <section id="projects" class="content-section">
                 <div class="section-heading">
                     <h1>About <em>Project</em></h1>
-                    <p >As a group, we are developing a stock market simulation that provides great tips to user by using machine learning algorithms. Users will be able to buy and sell coins by using the fake currency provided by the application.</p>
+                    <p >Stock Vision is a mobile application designed to provide users with a real-time stock/ETF simulation using past stock/ETF data. It allows users to invest using our application’s fake currency and get real-time results/tips about their investments. The application leverages advanced machine learning algorithms and data analysis techniques to forecast the future trends of various stocks and teaches users the fundamentals of stock/ETF predictions with hands-on experience simulation.<br><br>The application employs cutting-edge algorithms to capture complex patterns and correlations within stock data. Users capture different patterns for different time range graphs, such as daily, weekly, monthly, or annually. There are 9 fundamental patterns captured by our algorithms, such as doubles, flag, head and shoulders, rectangle, rounding bottom, support and resistance, triangle, triples, and wedge. After analyzing graphs and capturing complex patterns, a unique machine-learning technique, ARIMA, is used to predict results and provide accurate and up-to-date tips. After implementing LSTM, RNN, and Logistic Regression, ARIMA gave the most accurate results and was used in the application. The accuracy of the predictions is further enhanced through integration with a wide range of datasets, from a coin’s everyday results for the last ten years, enabling the application to capture the predicted stock prices.</p>
                 </div>
             
                 <div class="row1-container">
